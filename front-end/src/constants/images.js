@@ -24,6 +24,8 @@ import about03 from '../assets/about03.png';
 import about04 from '../assets/about04.png';
 
 import profile from '../assets/profile.png';
+import avatar from '../assets/avatar.png';
+import avatar1 from '../assets/avatar1.png'
 import circle from '../assets/circle.svg';
 import logo from '../assets/logo.png';
 import mnk from '../assets/mnk.png'
@@ -61,6 +63,8 @@ export default {
   about03,
   about04,
   profile,
+  avatar,
+  avatar1,
   circle,
   logo,
   mnk,
