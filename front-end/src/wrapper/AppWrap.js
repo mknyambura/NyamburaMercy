@@ -9,7 +9,7 @@ const AppWrap = (Component, idName, classNames) => function HOC() {
         <div className='wrapper flex'>
             <Component/>
             <div className='copyright'>
-                <p className="p-text">@2022 MERCY NYAMBURA KARIUKI</p>
+                <p className="p-text">@2022 Mercy F. Nyambura Kariuki</p>
                 <p className="p-text">All rights reserved</p>
             </div>
         </div>
