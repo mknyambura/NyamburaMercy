@@ -12,15 +12,15 @@
     margin: 4rem 2rem 2rem;
 
     .footer-card {
-        min-width: 290px;
+        min-width: 150px;
         display: flex;
         flex-direction: row;
-        justify-content: flex-start;
+        justify-content: center;
         align-items: center;
         margin: 1rem 0;
         padding: 1rem;
         border-radius: 10px;
-        cursor: pointer;
+        // cursor:/ pointer;
         background: #fef4f5;
         transition: all 0.4s ease-in-out;
 
@@ -39,13 +39,13 @@
         &:hover {
             box-shadow: 0 0 25px #fef4f5;
         }
-        @media screen and (max-width: 450px) {
-            width: 100%;
-        }
+        // @media screen and (max-width: 450px) {
+        //     width: 100%;
+        // }
     }
-    @media screen and (max-width: 768px) {
-        width: 100%;
-    }
+    // @media screen and (max-width: 768px) {
+    //     width: 100%;
+    // }
 }
 .footer-cards .footer-card:last-child{
     background: #f2f7fb;
@@ -55,31 +55,32 @@
     flex-direction: column;
     margin: 1rem 2rem;
 
-    div {
+    input {
         width: 100%;
         margin: 0.75rem 0;
         border-radius: 10px;
         cursor: pointer;
         background: #edf2f8;
         transition: all 0.3s ease-in-out;
-
-        input, textarea {
-            width: 100%;
-            padding: 0.95rem;
-            border: none;
-            border-radius: 7px;
-            background: #edf2f8;
-            font-family: 'DM Sans', sans-serif;
-            color: #313bac;
-            outline: none;
-        }
-        textarea {
-            height: 170px;
-        }
+    }
+    input, textarea {
+        width: 100%;
+        padding: 0.95rem;
+        border: none;
+        border-radius: 7px;
+        background: #edf2f8;
+        font-family: 'DM Sans', sans-serif;
+        color: #313bac;
+        outline: none;
+        
         &:hover {
             box-shadow: 0 0 25px #c4c4c4;
         }
     }
+    textarea {
+        height: 170px;
+    }
+   
     button {
         padding: 1rem 2rem;
         border-radius: 10px;
