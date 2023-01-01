@@ -1,8 +1,9 @@
 .navbar {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    align-content: center;
     padding: 1rem 2rem;background: rgba(255, 255, 255, 0.25);
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
@@ -139,4 +140,15 @@
             }
         }
     }
+}
+.theme-icon {
+    width: 30px;
+    // height: 30px;
+    cursor: pointer;
+    align-items: flex-end;
+    justify-content: flex-end;
+    text-align: right;
+    left: 0;
+    right: 0;
+    margin-right: 20px;
 }

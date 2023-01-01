@@ -29,7 +29,9 @@ import avatar from '../assets/avatar.png';
 import avatar1 from '../assets/avatar1.png'
 import circle from '../assets/circle.svg';
 import logo from '../assets/logo.png';
-import mnk from '../assets/mnk.png'
+import mnk from '../assets/mnk.png';
+import sun from '../assets/sun.png';
+import moon from '../assets/moon.png'
 
 import adidas from '../assets/adidas.png';
 import amazon from '../assets/amazon.png';
@@ -70,6 +72,8 @@ export default {
   circle,
   logo,
   mnk,
+  sun,
+  moon,
   adidas,
   amazon,
   asus,

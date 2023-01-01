@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 import { HiMenuAlt4, HiX } from 'react-icons/hi';
 import { motion } from 'framer-motion';
-// import { images } from '../../constants';
+import { images } from '../../constants';
 
 import './Navbar.scss';
 
@@ -23,6 +23,7 @@ function Navbar() {
           </li>
         ))}
       </ul>
+      {/* <img src={images.moon} alt="" className='theme-icon' /> */}
       <div className="navbar-menu">
         <HiMenuAlt4 onClick={() => setToggle(true)}/>
         {toggle && (
