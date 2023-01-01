@@ -1,4 +1,3 @@
-@@ -1,85 +0,0 @@
 # My portfolio
 
 Live link: <a href="https://mercy-nyambura.netlify.app/">Mercy Nyambura</a>
