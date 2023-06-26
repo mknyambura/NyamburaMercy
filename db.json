@@ -1,0 +1,189 @@
+{
+    "react":[
+        {
+            "id": 1,
+            "title":"HTML",
+            "image": "./images/html.png"
+        },
+        {
+            "id": 2,
+            "title":"CSS",
+            "image": "./images/css.png"
+        },
+        {
+            "id": 3,
+            "title":"Javascript",
+            "image": "./images/javascript.png"
+        },
+        {
+            "id": 4,
+            "title":"Typescript",
+            "image": "./images/typescript.png"
+        },
+        {
+            "id": 5,
+            "title":"React",
+            "image": "./images/react.png"
+        },
+        {
+            "id": 6,
+            "title":"Next",
+            "image": "./images/next.png"
+        },
+        {
+            "id": 7,
+            "title":"Tailwindcss",
+            "image": "./images/tailwindcss.png"
+        },
+        {
+            "id": 8,
+            "title":"SCSS",
+            "image": "./images/sass.png"
+        },
+        {
+            "id": 9,
+            "title":"Bootstrap",
+            "image": "./images/bootstrap.png"
+        },
+        {
+            "id": 10,
+            "title":"Rails",
+            "image": "./images/rails.png"
+        },
+        {
+            "id": 11,
+            "title":"Ruby",
+            "image": "./images/ruby.png"
+        }
+    ],
+    "dataScience":[
+        {
+            "id": 1,
+            "title":"Python",
+            "image": "./images/python.png"
+        },
+        {
+            "id": 2,
+            "title":"Pandas",
+            "image": "./images/pandas.png"
+        },
+        {
+            "id": 3,
+            "title":"R",
+            "image": "./images/r.png"
+        },
+        {
+            "id": 4,
+            "title":"SQL",
+            "image": "./images/sql.png"
+        },
+        {
+            "id": 5,
+            "title":"Tensorflow",
+            "image": "./images/tensorflow.png"
+        },
+        {
+            "id": 6,
+            "title":"NumPy",
+            "image": "./images/numpy.png"
+        },
+        {
+            "id": 7,
+            "title":"Matplotlib",
+            "image": "./images/matplotlib.png"
+        },
+        {
+            "id": 8,
+            "title":"Matlab",
+            "image": "./images/matlab.png"
+        },
+        {
+            "id": 9,
+            "title":"SciPy",
+            "image": "./images/scipy.png"
+        },
+        {
+            "id": 10,
+            "title":"Scikit-Learn",
+            "image": "./images/scikit-learn.png"
+        },
+        {
+            "id": 11,
+            "title":"Keras",
+            "image": "./images/keras.png"
+        },
+        {
+            "id": 12,
+            "title":"Hadoop",
+            "image": "./images/hadoop.png"
+        },
+        {
+            "id": 13,
+            "title":"Microsoft PowerBI",
+            "image": "./images/powerbi.png"
+        },
+        {
+            "id": 14,
+            "title":"Jupyter Notebooks",
+            "image": "./images/jupyter-notebook.png"
+        }
+    ],
+    "reactProjects": [
+        {
+            "id": 1,
+            "title": "Corporate Landing Page",
+            "code": "https://github.com/mknyambura/corporate-landing-page",
+            "website": "https://corporate-landing-page-nine.vercel.app/",
+            "image": "./images/react/CorporateLandingPage.png"
+        },
+        {
+            "id": 2,
+            "title": "Brida University",
+            "code": "https://github.com/mknyambura/brida",
+            "website": "https://brida-sepia.vercel.app/",
+            "image": "./images/react/BridaDesign.png"
+        },
+        {
+            "id": 3,
+            "title": "Dentalist Landing Page",
+            "code": "https://github.com/mknyambura/dentalist",
+            "website": "https://dentalist-kohl.vercel.app/",
+            "image": "./images/react/Dentalist.png"
+        },
+        {
+            "id": 4,
+            "title": "Frankys Studio",
+            "code": "https://github.com/mknyambura/FrankyStudios",
+            "website": "https://franky-studios.vercel.app/",
+            "image": "./images/react/FrankyStudios.png"
+        },
+        {
+            "id": 5,
+            "title": "Hyperestate",
+            "code": "https://github.com/mknyambura/hyperestate",
+            "website": "https://hyperestate.vercel.app/",
+            "image": "./images/react/Hyperestate1.png"
+        },
+        {
+            "id": 6,
+            "title": "Fashion Website",
+            "code": "https://github.com/mknyambura/fashion",
+            "website": "https://fashion-sepia.vercel.app/",
+            "image": "./images/react/Fashion.png"
+        },
+        {
+            "id": 7,
+            "title": "SaaS Website",
+            "code": "https://github.com/mknyambura/saas-landing-page",
+            "website": "https://saasify-rouge.vercel.app/",
+            "image": "./images/react/SaaS.png"
+        },
+        {
+            "id": 8,
+            "title": "ITSMNK Creative Agency",
+            "code": "https://github.com/mknyambura/itsmnk-creative-agency",
+            "website": "https://itsmnk-creative-agency.vercel.app/",
+            "image": "./images/react/itsmnk-creative-agency.png"
+        }
+    ]
+}
