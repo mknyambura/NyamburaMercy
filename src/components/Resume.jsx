@@ -5,12 +5,15 @@ import { FaCheck } from 'react-icons/fa'
 import LandingNavbar from './LandingNavbar'
 import { SlArrowLeft } from 'react-icons/sl'
 import { Link } from 'react-router-dom'
+import { HiDownload } from 'react-icons/hi'
+import resume from '../components/Mercy_Kariuki_Resume.pdf'
 
 const Resume = () => {
     const [expertise, setExpertise] = useState([])
     const [work, setWork] = useState([])
     const [projects, setProjects] = useState([])
     const [education, setEducation] = useState([])
+
     useEffect(() => {
         fetch('./react')
         .then((response) => response.json())
@@ -36,17 +39,41 @@ const Resume = () => {
         .then((response) => response.json())
         .then(setEducation)
     }, [])
+
+    const downloadButton = () => {
+        fetch('/Mercy_Kariuki_Resume.pdf')
+        .then((response) => {
+            response.blob()
+        })
+        .then((blob) => {
+            const fileURL = window.URL.createObjectURL(blob);
+            let alink = document.create
+        })
+    }
     
   return (
     <div>
-        <Link to='/'>
-            <div className='flex flex-row gap-3 items-center px-6 py-12'>
-                <Link to='/' className='bg-[#154360] rounded-full px-3 py-3'>
-                    <SlArrowLeft className='  text-white '/>
-                </Link>
-                <h1 className='text-[#154360] font-bold text-2xl'>Go Back</h1>
-            </div>
-        </Link>
+        <div className='px-6 flex flex-row items-center justify-between'>
+            <Link to='/'>
+                <div className='flex flex-row gap-3 items-center px-6 py-12'>
+                    <Link to='/' className='bg-[#154360] rounded-full px-3 py-3'>
+                        <SlArrowLeft className='  text-white '/>
+                    </Link>
+                    <h1 className='text-[#154360] font-bold text-2xl'>Go Back</h1>
+                </div>
+            </Link>
+            <a 
+                href={resume} 
+                className='active:translate-y-2 active:bg-white active:text-[#154360] flex flex-row items-center gap-3 px-12 font-bold bg-[#154360] text-white text-xl px-8 py-1'
+                download="Resume"
+                target='_blank'
+                rel='noopener noreferrer'
+
+            >
+                    Resume
+                    <HiDownload className='text-white'/>
+            </a>
+        </div>
         <div className='px-6 flex flex-col gap-8 items-center'>
             <div className='py-8 w-full flex flex-col gap-8 items-center'>
                 <h1 className='uppercase font-bold text-4xl text-[#154360]'>Mercy F Nyambura Kariuki</h1>
