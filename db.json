@@ -190,49 +190,49 @@
         {
             "id": 1,
             "title": "Video Games Analysis",
-            "code": "",
+            "code": "#",
             "viz": "https://public.tableau.com/app/profile/mercy.nyambura/viz/VideoGamesSalesReport/VideoGamesReport",
             "image": "./images/datascience/VideoGamesReport.png"
         },
         {
             "id": 2,
             "title": "Call Center Analysis",
-            "code": "",
+            "code": "#",
             "viz": "https://public.tableau.com/app/profile/mercy.nyambura/viz/CallCenterReport_16564528249180/CallCenterReport",
             "image": "./images/datascience/CallCenterReport.png"
         },
         {
             "id": 3,
             "title": "Sprocket Central Pty Ltd Report",
-            "code": "",
+            "code": "#",
             "viz": "https://public.tableau.com/app/profile/mercy.nyambura/viz/SprocketCentralPtyLtdKPMG/ProductSizeandBrandMultivariateDashboardExploration",
             "image": "./images/datascience/SprocketCentralPtyLtdReport.png"
         },
         {
             "id": 4,
-            "title": "H & M Product Insight ",
-            "code": "",
+            "title": "H&M Product Insight ",
+            "code": "#",
             "viz": "https://public.tableau.com/app/profile/mercy.nyambura/viz/HMProductInsight/ProductInsight",
             "image": "./images/datascience/H&MProductInsight.png"
         },
         {
             "id": 5,
-            "title": "H & M Product Insight ",
-            "code": "",
+            "title": "World Happiness Report 2015-2019 ",
+            "code": "https://github.com/mknyambura/Google-Data-Analyst-Professional-Certificate-Capstone-Projects/blob/main/Choose%20Your%20Own%20Dataset/World%20Happiness%20Report/World%20Happiness%20Report.ipynb",
             "viz": "https://public.tableau.com/app/profile/mercy.nyambura/viz/WorldHappinessReport_16584167402850/WorldHappinessReport",
             "image": "./images/datascience/WorldHappinessReport2015-2019.png"
         },
         {
             "id": 6,
             "title": "Amazon Best Selling Books Analysis",
-            "code": "",
+            "code": "https://github.com/mknyambura/Google-Data-Analyst-Professional-Certificate-Capstone-Projects/blob/main/Choose%20Your%20Own%20Dataset/Amazon%20Top%2050%20Best%20Selling%20Books/Amazon%20Top%2050%20Best%20Selling%20Books.ipynb",
             "viz": "https://public.tableau.com/app/profile/mercy.nyambura/viz/AmazonTop50BestSellingBooks/AmazonBestSellingBooksAnalysis#1",
             "image": "./images/datascience/AmazonBestSellingBooksAnalysis.png"
         },
         {
             "id": 7,
             "title": "Avocado Price Analysis",
-            "code": "",
+            "code": "https://github.com/mknyambura/Google-Data-Analyst-Professional-Certificate-Capstone-Projects/blob/main/Choose%20Your%20Own%20Dataset/Avocado%20Prices/Avocado%20Prices%20Analysis.ipynb",
             "viz": "https://public.tableau.com/app/profile/mercy.nyambura/viz/AvocadoPricesAnalysis/AvocadoPriceAnalysis",
             "image": "./images/datascience/AvocadoPriceAnalysis.png"
         },
@@ -240,8 +240,64 @@
             "id": 8,
             "title": "Ad Click Through Rate Prediction",
             "code": "https://github.com/mknyambura/Ads-Click-Through-Rate-Prediction",
-            "viz": "",
+            "viz": "#",
             "image": "./images/datascience/Ad-Click-Through-Rate.png"
+        },
+        {
+            "id": 9,
+            "title": "SMS Spam Detection",
+            "code": "https://github.com/mknyambura/Data-Science-Repository/tree/main/SMS%20Spam%20Detection",
+            "viz": "#",
+            "image": "./images/datascience/SMSSpamDetection.png"
+        },
+        {
+            "id": 10,
+            "title": "Neural Network CIFAR10 Image Classification",
+            "code": "https://github.com/mknyambura/Data-Science-Repository/blob/main/Neural%20Network%20CIFAR10%20Image%20Classification/Neural_Network_Keras_CIFAR_10_Classification.ipynb",
+            "viz": "#",
+            "image": "./images/datascience/NeuralImageClassification.png"
+        },
+        {
+            "id": 11,
+            "title": "FIFA 2019 Analysis",
+            "code": "https://github.com/mknyambura/Data-Science-Repository/blob/main/FIFA-2019-Analysis-main/FIFA%20Analysis%20of%20Football%20Players.ipynb",
+            "viz": "#",
+            "image": "./images/datascience/FIFA2019Analysis.png"
+        },
+        {
+            "id": 12,
+            "title": "Absenteesm at Work",
+            "code": "https://github.com/mknyambura/Data-Science-Repository/blob/main/Absenteeism_at_work/Absenteeism%20at%20work.ipynb",
+            "viz": "#",
+            "image": "./images/datascience/AbsenteesmAtWork.png"
+        },
+        {
+            "id": 13,
+            "title": "Diabetes Prediction",
+            "code": "https://github.com/mknyambura/Data-Science-Repository/blob/main/Diabetes%20Prediction/Diabetes%20Prediction%20with%20Machine%20Learning.ipynb",
+            "viz": "#",
+            "image": "./images/datascience/DiabetesPrediction.png"
+        },
+        {
+            "id": 14,
+            "title": "Uber Trip Analysis",
+            "code": "https://github.com/mknyambura/uber-trips-analysis/blob/main/Uber%20Trips%20Analysis.ipynb",
+            "viz": "https://github.com/mknyambura/uber-trips-analysis/blob/main/Uber%20Trip%20Analysis.pbix",
+            "image": "./images/datascience/UberTripAnalysis.png"
+        },
+        {
+            "id": 15,
+            "title": "Get Google Stock Price from Api",
+            "code": "https://github.com/mknyambura/Get-Stock-Price-Data-using-Python/blob/main/Get%20Stock%20Price%20Data%20using%20Python.ipynb",
+            "viz": "#",
+            "image": "./images/datascience/GetGooglePrice.png"
+        },
+        {
+            "id": 16,
+            "title": "Instagram Reach Forecasting",
+            "code": "https://github.com/mknyambura/instagram_reach_forecasting/blob/main/Instagram%20Reach%20Forecasting.ipynb",
+            "viz": "https://github.com/mknyambura/instagram_reach_forecasting/blob/main/Instagram%20Reach%20Forecast%20Anaysis.pbix",
+            "image": "./images/datascience/InstagramReachForecasting.png"
         }
     ]
 }

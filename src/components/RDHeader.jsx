@@ -3,15 +3,15 @@ import React from 'react'
 const RDHeader = () => {
   return (
     <div>
-        <div className=' h-[50vh] py-12 px-12 '>
-            <div className=' flex flex-col gap-8 items-center justify-center'>
+        <div className=' py-12 px-12 '>
+            <div className=' flex flex-col items-center justify-center'>
                 <h1 className='text-black font-bold text-2xl'>Mercy Nyambura Kariuki</h1>
-                <div className='items-center w-3/4 flex flex-col relative gap-8'>
+                <div className='items-center w-3/4 flex flex-col relative gap-8 m-4'>
                     <div className='flex items-center justify-center w-[40%] bg-[#222CFD] h-[3px]'></div>
                     <div className='absolute top-[-5px] h-[15px] w-[15px] rounded-full bg-[#222CFD]'></div>
                 </div>
             </div>
-            <div className='flex flex-col gap-6 justify-center px-12 py-12 text-center item-center'>
+            <div className='flex flex-col gap-6 justify-center  text-center item-center'>
                 <p>
                     Hi! Glad to see you here.
                     <br/>  

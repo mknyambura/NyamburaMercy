@@ -57,11 +57,11 @@ const Landing = () => {
                 <a href='/react-developer-portfolio' target='_blank' rel='noreferrer' className='absolute top-[70px] text-center items-center justify-center font-bold text-sm hover:text-2xl text-[#fff]'>Front-End React Developer</a>
             </div>
           </div>
-          <div className='w-1/2 flex flex-col items-center gap-8'>
+          <div className='lg:w-1/2 flex flex-col items-center gap-8'>
             <h1 className='text-[#FF9B00] font-bold text-2xl uppercase'>About Me</h1>
-            <div id='about' className='flex sm:flex-col md:flex-col lg:flex-row gap-16 px-12 py-6 justify-between'>
+            <div id='about' className='flex flex-row sm:gap-8 lg:gap-16 sm:px-6 sm:py-6 lg:px-12 lg:py-6 justify-between'>
               {/* Data Science */}
-              <div className='sm:w-full lg:w-1/2 flex flex-col lg:items-center gap-8'>
+              <div className='sm:w-1/2 md:w-1/2 lg:w-1/2 flex flex-col lg:items-center gap-8'>
                 <h1 className='font-bold text-2xl'>Data Scientist</h1>
                 <div className='flex flex-row flex-wrap gap-8'>
                   {/* <ul className='list-disc marker:text-[#FF9B00]'> */}
@@ -74,7 +74,7 @@ const Landing = () => {
                 </div>
               </div>
               {/* React Developer */}
-              <div className='lg:w-[40%] flex flex-col lg:items-center gap-8'>
+              <div className='sm:w-1/2 md:w-1/2 lg:w-[40%] flex flex-col lg:items-center gap-8'>
                 <h1 className='font-bold text-2xl'>React Developer</h1>
                 <div className='flex flex-row flex-wrap gap-8'>
                   {/* <ul className='list-disc marker:text-[#FF9B00]'> */}
@@ -89,7 +89,7 @@ const Landing = () => {
             </div>
           </div>
         </div>
-        <div className='bg-[#E1E2E2]/40 flex flex-col gap-8 px-48 py-48 items-center'>
+        <div className='bg-[#E1E2E2]/40 flex flex-col gap-8 px-36 py-36 items-center'>
           <h1 className='font-bold text-3xl'>Check out my respective projects</h1>
           <ul className='list-disc marker:text-[#FF9B00] flex flex-col gap-4 px-4 py-4'>
             <li className='text-xl hover:font-bold hover:text-[#FF9B00] hover:transition hover:transition-all hover:duration-500 hover:ease-in-out'>
@@ -111,7 +111,7 @@ const Landing = () => {
           <h1 className='text-[#FF9B00] uppercase text-2xl font-bold'>Get in touch</h1>
           <div className=' flex flex-row gap-8 items-center'>
             <h1 className='font-bold text-3xl'>Don't be shy! Let's talk more</h1>
-            <BsEmojiWink className='text-7xl text-[#FF9B00] font-bold'/>
+            <BsEmojiWink className='sm:text-7xl md:text-6xl lg:text-5xl text-[#FF9B00]'/>
           </div>
           <div className='flex sm:flex-col md:flex-col lg:flex-row justify-evenly items-center gap-12'>
             <div className='flex flex-row items-center gap-8'>
