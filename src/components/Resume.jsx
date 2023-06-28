@@ -62,8 +62,8 @@ const Resume = () => {
                     <h1 className='text-[#154360] font-bold text-2xl'>Go Back</h1>
                 </div>
             </Link>
-            <a 
-                href={resume} 
+            <Link 
+                to={resume} 
                 className='active:translate-y-2 active:bg-white active:text-[#154360] flex flex-row items-center gap-3 px-12 font-bold bg-[#154360] text-white text-xl px-8 py-1'
                 download="Resume"
                 target='_blank'
@@ -72,7 +72,7 @@ const Resume = () => {
             >
                     Resume
                     <HiDownload className='text-white'/>
-            </a>
+            </Link>
         </div>
         <div className='px-6 flex flex-col gap-8 items-center'>
             <div className='py-8 w-full flex flex-col gap-8 items-center'>
