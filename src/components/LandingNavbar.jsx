@@ -33,7 +33,7 @@ const LandingNavbar = () => {
                 <a href="/react-developer-portfolio" className='font-semibold hover:font-bold active:text-[#FF9B00] hover:transition-all hover:duration-500' target='_blank' rel='noreferrer'>React Developer Portfolio</a>
               </li>
               <li className=''>
-                <a href="" className='font-semibold hover:font-bold active:text-[#FF9B00] hover:transition-all hover:duration-500' target='_blank' rel='noreferrer'>Resume</a>
+                <a href="/resume" className='font-semibold hover:font-bold active:text-[#FF9B00] hover:transition-all hover:duration-500' target='_blank' rel='noreferrer'>Resume</a>
               </li>
             {/* </div> */}
             {/* <div className='flex sm:flex-col md:flex-col lg:flex-row justify-between gap-8'> */}

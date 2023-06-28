@@ -299,5 +299,67 @@
             "viz": "https://github.com/mknyambura/instagram_reach_forecasting/blob/main/Instagram%20Reach%20Forecast%20Anaysis.pbix",
             "image": "./images/datascience/InstagramReachForecasting.png"
         }
+    ],
+    "workExperiences": [
+        {
+            "id": 1,
+            "title": "Customs and Border Control Intern",
+            "company": "Kenya Revenue Authority",
+            "duration": "September 2021 - November 2021",
+            "location": "Nairobi, Kenya",
+            "task1": "Faciliated international trade by providing expedited clearance of goods through simplified and harmonized Customs procedures",
+            "task2": "Collected and accounted for 35% of the gross revenue collected by Kenya Revenue Authority",
+            "task3": "Collected and accounted for import duty and VAT as well as agency fees on behalf of other institutions related to cargo"
+        },
+        {
+            "id": 2,
+            "title": "Statistics Intern",
+            "company": "Civil Registration Services",
+            "duration": "June 2021 - September 2021",
+            "location": "Nairobi, Kenya",
+            "task1": "Collected, filed and retrieved birth and death records that later assessed applicants for issuance of birth and death certificates",
+            "task2": "Monitored and implemented a one day service report (TAT) field offices in the months of June, July and August, 2021",
+            "task3": "Applied statistical analysis on the births and deaths for year 2020 for efficient government planning and accurate monitoring of progress across the country"
+        },
+        {
+            "id": 3,
+            "title": "Finance Intern",
+            "company": "Kenya Power and Lighting Company",
+            "duration": "May 2019 - July 2019",
+            "location": "Nairobi, Kenya",
+            "task1": "Ensured compliance with financial and accounting standards and regulations",
+            "task2": "Reviewed financial services performance and made recommendations to improve efficiency and effectiveness",
+            "task3": "Ensured the company interestes are adequately covered through insurance and hedging instruments to minimize exposure to losses"
+        }
+    ],
+    "projects": [
+        {
+            "id": 1,
+            "title": "Mosjra E-commerce",
+            "description1": "Built a front-end responsive e-commerce web application that allows users to purchase men, women and children's clothes",
+            "description2": "Utilized React, Tailwind and SCSS to simulate possible outcomes based on the user's experience",
+            "category": "Development"
+        },
+        {
+            "id": 2,
+            "title": "Ads Click Through Rate Prediction",
+            "description1": "Used Machine Learning for the task of Ads CTR prediction using Python. Ads CTR means predicting whether the user will click on the ad.",
+            "description2": "Utilized Microsoft Power BI to create a visualisation of the data using a pie chart, histogram and doughnut chart",
+            "category": "Data Science"
+        }
+    ],
+    "education": [
+        {
+            "id": 1,
+            "title": "Bachelor of Science in Economics",
+            "institution": "Daystar University",
+            "location": "Nairobi, Kenya"
+        },
+        {
+            "id": 2,
+            "title": "Software Engineering Program",
+            "institution": "Moringa School",
+            "location": "Nairobi, Kenya"
+        }
     ]
 }

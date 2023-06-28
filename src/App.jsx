@@ -6,6 +6,7 @@ import Landing from './components/Landing'
 import { Route, Routes } from 'react-router-dom'
 import DS from './components/DS'
 import RD from './components/RD'
+import Resume from './components/Resume'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,6 +17,7 @@ function App() {
       <Route path='/' element={<Landing/>}/>
       <Route path='/data-science-portfolio' element={<DS/>}/>
       <Route path='/react-developer-portfolio' element={<RD/>}/>
+      <Route path='/resume' element={<Resume/>}/>
     </Routes>
     
     </>

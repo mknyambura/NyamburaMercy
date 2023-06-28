@@ -41,7 +41,7 @@ const Landing = () => {
               </a>
             </div>
           </div>
-          <div className='rounded-full sm:w-3/4 md:w-3/4 lg:w-full'>
+          <div className='rounded-full sm:w-3/4 md:w-3/4 lg:w-3/4'>
             <img src={profilePic} alt="" className='rounded-full'/>
           </div>
         </div>
@@ -107,7 +107,7 @@ const Landing = () => {
           </ul>
         </div>
         {/* Get in touch */}
-        <div className='flex flex-col items-start gap-8 py-36 px-48'>
+        <div id='contact' className='flex flex-col items-start gap-8 py-36 px-48'>
           <h1 className='text-[#FF9B00] uppercase text-2xl font-bold'>Get in touch</h1>
           <div className=' flex flex-row gap-8 items-center'>
             <h1 className='font-bold text-3xl'>Don't be shy! Let's talk more</h1>

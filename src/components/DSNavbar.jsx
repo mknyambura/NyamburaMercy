@@ -15,7 +15,10 @@ const DSNavbar = () => {
   return (
     <div className='bg-[#FF9B00] py-6 px-4'>
         <Link to='/' className='text-white'>
-            <button className='rounded-full font-bold flex flex-row items-center gap-4'><SlArrowLeft className='bg-white rounded-full text-[#FF9B00] text-4xl px-2 py-2'/>Go Back</button>
+            <Link to='/' className='rounded-full font-bold flex flex-row items-center gap-4'>
+              <SlArrowLeft className='bg-white rounded-full text-[#FF9B00] text-4xl px-2 py-2'/>
+              Go Back
+            </Link>
         </Link>
         <div className='flex flex-row items-center justify-between bg-[#FF9B00] px-12 py-8'>
             <h1 className='text-white font-bold text-4xl uppercase'>Mercy N.K</h1>
