@@ -185,5 +185,63 @@
             "website": "https://itsmnk-creative-agency.vercel.app/",
             "image": "./images/react/itsmnk-creative-agency.png"
         }
+    ],
+    "datascienceProjects": [
+        {
+            "id": 1,
+            "title": "Video Games Analysis",
+            "code": "",
+            "viz": "https://public.tableau.com/app/profile/mercy.nyambura/viz/VideoGamesSalesReport/VideoGamesReport",
+            "image": "./images/datascience/VideoGamesReport.png"
+        },
+        {
+            "id": 2,
+            "title": "Call Center Analysis",
+            "code": "",
+            "viz": "https://public.tableau.com/app/profile/mercy.nyambura/viz/CallCenterReport_16564528249180/CallCenterReport",
+            "image": "./images/datascience/CallCenterReport.png"
+        },
+        {
+            "id": 3,
+            "title": "Sprocket Central Pty Ltd Report",
+            "code": "",
+            "viz": "https://public.tableau.com/app/profile/mercy.nyambura/viz/SprocketCentralPtyLtdKPMG/ProductSizeandBrandMultivariateDashboardExploration",
+            "image": "./images/datascience/SprocketCentralPtyLtdReport.png"
+        },
+        {
+            "id": 4,
+            "title": "H & M Product Insight ",
+            "code": "",
+            "viz": "https://public.tableau.com/app/profile/mercy.nyambura/viz/HMProductInsight/ProductInsight",
+            "image": "./images/datascience/H&MProductInsight.png"
+        },
+        {
+            "id": 5,
+            "title": "H & M Product Insight ",
+            "code": "",
+            "viz": "https://public.tableau.com/app/profile/mercy.nyambura/viz/WorldHappinessReport_16584167402850/WorldHappinessReport",
+            "image": "./images/datascience/WorldHappinessReport2015-2019.png"
+        },
+        {
+            "id": 6,
+            "title": "Amazon Best Selling Books Analysis",
+            "code": "",
+            "viz": "https://public.tableau.com/app/profile/mercy.nyambura/viz/AmazonTop50BestSellingBooks/AmazonBestSellingBooksAnalysis#1",
+            "image": "./images/datascience/AmazonBestSellingBooksAnalysis.png"
+        },
+        {
+            "id": 7,
+            "title": "Avocado Price Analysis",
+            "code": "",
+            "viz": "https://public.tableau.com/app/profile/mercy.nyambura/viz/AvocadoPricesAnalysis/AvocadoPriceAnalysis",
+            "image": "./images/datascience/AvocadoPriceAnalysis.png"
+        },
+        {
+            "id": 8,
+            "title": "Ad Click Through Rate Prediction",
+            "code": "https://github.com/mknyambura/Ads-Click-Through-Rate-Prediction",
+            "viz": "",
+            "image": "./images/datascience/Ad-Click-Through-Rate.png"
+        }
     ]
 }

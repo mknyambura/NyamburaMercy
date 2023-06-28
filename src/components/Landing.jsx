@@ -13,6 +13,7 @@ import { TfiEmail } from 'react-icons/tfi'
 import data from '../../db.json'
 import { useState } from 'react'
 import { useEffect } from 'react'
+import LandingFooter from './LandingFooter'
 
 const Landing = () => {
   const [skills, setSkills] = useState([])
@@ -30,47 +31,50 @@ const Landing = () => {
         <LandingNavbar/>
         <div className='bg-[#E1E2E2]/40 flex flex-row items-center justify-between px-12 py-12'>
           <div className='flex flex-col justify-between gap-8'>
-            <h1 className='flex flex-col justify-between gap-8 text-2xl'><span className='text-4xl text-[#FF9B00] font-bold'>Hi! I'm Mercy.</span> Great seeing you here! I'm a Data Scientist and a Front-End React Developer based in UK and Kenya</h1>
+            <h1 className='flex flex-col justify-between gap-8 sm:text-xl md:text-xl lg:text-2xl'><span className='text-4xl text-[#FF9B00] font-bold'>Hi! I'm Mercy.</span> Great seeing you here! I'm a Data Scientist and a Front-End React Developer based in UK and Kenya</h1>
             <div className='flex flex-row gap-8'>
               <a href='https://www.linkedin.com/in/mercy-nyambura-kariuki/' target='_blank' rel='noreferrer'>
-                <FaLinkedinIn className='text-5xl hover:text-[#FF9B00] hover:transition-all hover:duration-300 hover:ease-in-out'/>
+                <FaLinkedinIn className='sm:text-3xl md:text-3xl lg:text-5xl hover:text-[#FF9B00] hover:transition-all hover:duration-300 hover:ease-in-out'/>
               </a>
               <a href='https://github.com/mknyambura' target='_blank' rel='noreferrer'>
-                <FaGithub className='text-5xl hover:text-[#FF9B00] hover:transition-all hover:duration-300 hover:ease-in-out'/>
+                <FaGithub className='sm:text-3xl md:text-3xl lg:text-5xl hover:text-[#FF9B00] hover:transition-all hover:duration-300 hover:ease-in-out'/>
               </a>
             </div>
           </div>
-          <div className='rounded-full'>
+          <div className='rounded-full sm:w-3/4 md:w-3/4 lg:w-full'>
             <img src={profilePic} alt="" className='rounded-full'/>
           </div>
         </div>
-        <div className='mt-16 mb-16 flex flex-row justify-evenly items-center'>
-          <div className='w-[40%] flex flex-row px-6 py-6'>
+        {/* About Me */}
+        <div className='mt-16 mb-16 flex sm:flex-col md:flex-col lg:flex-row justify-evenly items-center'>
+          <div className='lg:w-[40%] flex flex-row px-6 py-6'>
             <div className='hover:text-2xl relative flex items-center justify-center bg-[#FF9B00]/10 h-[30vh] w-[calc(50%-40px)] hover:w-[calc(50%+500px)] transition-all ease-in-out duration-700'>
                 <img src={dsImage} alt=""  width={600}/>
                 <a href='/data-science-portfolio' target='_blank' rel='noreferrer' className='absolute text-center items-center justify-center font-bold text-sm hover:text-2xl text-[#fff]'>Data Scientist</a>
             </div>
             <div className='relative flex items-center justify-center bg-[#FF9B00]/10 h-[30vh] w-[calc(50%+50px)] hover:w-[calc(50%+800px)] transition-all ease-in-out duration-700 border-l-[50px] border-l-[#FF9B00]/5 border-b-[188px] border-b-transparent box-border'>
-                <img src={rdImage} alt="" className='absolute top-[30px]' width={600}/>
+                <img src={rdImage} alt="" className='absolute sm:top-[15px] lg:top-[30px]' width={600}/>
                 <a href='/react-developer-portfolio' target='_blank' rel='noreferrer' className='absolute top-[70px] text-center items-center justify-center font-bold text-sm hover:text-2xl text-[#fff]'>Front-End React Developer</a>
             </div>
           </div>
           <div className='w-1/2 flex flex-col items-center gap-8'>
             <h1 className='text-[#FF9B00] font-bold text-2xl uppercase'>About Me</h1>
-            <div id='about' className='flex flex-row gap-16 px-12 py-6 justify-between'>
-              <div className='w-1/2 flex flex-col items-center gap-8'>
+            <div id='about' className='flex sm:flex-col md:flex-col lg:flex-row gap-16 px-12 py-6 justify-between'>
+              {/* Data Science */}
+              <div className='sm:w-full lg:w-1/2 flex flex-col lg:items-center gap-8'>
                 <h1 className='font-bold text-2xl'>Data Scientist</h1>
                 <div className='flex flex-row flex-wrap gap-8'>
                   {/* <ul className='list-disc marker:text-[#FF9B00]'> */}
                     {data.dataScience.map((dataScienceSkills) => (
                       // <div key={reactSkills.id}>
-                        <img src={dataScienceSkills.image} alt="" className='rounded-full w-[15%] gap-8' />
+                        <img src={dataScienceSkills.image} alt="" className='rounded-full sm:w-[20%] md:w-[20%] lg:w-[15%] gap-8' />
                       // </div>
                     ))}
                   {/* </ul> */}
                 </div>
               </div>
-              <div className='w-[40%] flex flex-col items-center gap-8'>
+              {/* React Developer */}
+              <div className='lg:w-[40%] flex flex-col lg:items-center gap-8'>
                 <h1 className='font-bold text-2xl'>React Developer</h1>
                 <div className='flex flex-row flex-wrap gap-8'>
                   {/* <ul className='list-disc marker:text-[#FF9B00]'> */}
@@ -102,13 +106,14 @@ const Landing = () => {
             </li>
           </ul>
         </div>
+        {/* Get in touch */}
         <div className='flex flex-col items-start gap-8 py-36 px-48'>
           <h1 className='text-[#FF9B00] uppercase text-2xl font-bold'>Get in touch</h1>
           <div className=' flex flex-row gap-8 items-center'>
             <h1 className='font-bold text-3xl'>Don't be shy! Let's talk more</h1>
-            <BsEmojiWink className='text-2xl text-[#FF9B00] font-bold'/>
+            <BsEmojiWink className='text-7xl text-[#FF9B00] font-bold'/>
           </div>
-          <div className='flex flex-row justify-evenly items-center gap-12'>
+          <div className='flex sm:flex-col md:flex-col lg:flex-row justify-evenly items-center gap-12'>
             <div className='flex flex-row items-center gap-8'>
               <button className='px-6 py-6 bg-white shadow-xl shadow-slate-400 rounded-full' disabled="disabled">
                 <FaMapMarkedAlt className='text-[#FF9B00] font-bold text-5xl'/>
@@ -129,13 +134,7 @@ const Landing = () => {
             </div>
           </div>
         </div>
-        <div id='contact' className='bg-black flex flex-col py-16 items-center justify-center'>
-          <div className='flex flex-col bg-[#FF9b00] h-[2px] w-[80%] items-center'></div>
-          <div className='flex flex-row text-white justify-between px-48 py-6 gap-3'>
-            <h1 className='text-white flex flex-row'>Copyright © <a href='/' className='text-[#FF9B00]'>Mercy Faith Nyambura Kariuki. </a></h1>
-            <h1>All Rights Reserved</h1>
-          </div>
-        </div>
+        <LandingFooter/>
     </div>
   )
 }
