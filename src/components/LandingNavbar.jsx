@@ -27,13 +27,13 @@ const LandingNavbar = () => {
           <ul className={`sm:w-1/2 md:w-1/2 lg:w-auto sm:z-10 md:z-10 z-[-1] sm:absolute md:absolute lg:static sm:right-[1%] md:right-[1%] flex sm:flex-col md:flex-col lg:flex-row justify-between gap-8 sm:bg-[#FF9B00]/90 md:bg-[#FF9B00]/90 lg:bg-transparent sm:py-6 sm:px-6 sm:mb-6 sm:mt-6 md:py-6 md:px-6 md:mb-6 md:mt-6 ${open ? "top-[-1090px] text-black" : "top-[10%] text-white"}`}>
             {/* <div className='flex sm:flex-col md:flex-col lg:flex-row justify-between gap-8'> */}
               <li className=''>
-                <a href="/data-science-portfolio" className='font-semibold hover:font-bold active:text-[#FF9B00] hover:transition-all hover:duration-500' target='_blank' rel='noreferrer'>Data Science Portfolio</a>
+                <Link to="/data-science-portfolio" className='font-semibold hover:font-bold active:text-[#FF9B00] hover:transition-all hover:duration-500' target='_blank' rel='noreferrer'>Data Science Portfolio</Link>
               </li>
               <li className=''>
-                <a href="/react-developer-portfolio" className='font-semibold hover:font-bold active:text-[#FF9B00] hover:transition-all hover:duration-500' target='_blank' rel='noreferrer'>React Developer Portfolio</a>
+                <Link to="/react-developer-portfolio" className='font-semibold hover:font-bold active:text-[#FF9B00] hover:transition-all hover:duration-500' target='_blank' rel='noreferrer'>React Developer Portfolio</Link>
               </li>
               <li className=''>
-                <a href="/resume" className='font-semibold hover:font-bold active:text-[#FF9B00] hover:transition-all hover:duration-500' target='_blank' rel='noreferrer'>Resume</a>
+                <Link to="/resume" className='font-semibold hover:font-bold active:text-[#FF9B00] hover:transition-all hover:duration-500' target='_blank' rel='noreferrer'>Resume</Link>
               </li>
             {/* </div> */}
             {/* <div className='flex sm:flex-col md:flex-col lg:flex-row justify-between gap-8'> */}
