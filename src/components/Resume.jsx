@@ -40,15 +40,23 @@ const Resume = () => {
         .then(setEducation)
     }, [])
 
-    const downloadButton = () => {
-        fetch('/Mercy_Kariuki_Resume.pdf')
-        .then((response) => {
-            response.blob()
-        })
-        .then((blob) => {
-            const fileURL = window.URL.createObjectURL(blob);
-            let alink = document.create
-        })
+    // const downloadButton = () => {
+    //     fetch('/Mercy_Kariuki_Resume.pdf')
+    //     .then((response) => {
+    //         response.blob()
+    //     })
+    //     .then((blob) => {
+    //         const fileURL = window.URL.createObjectURL(blob);
+    //         let alink = document.create
+    //     })
+    // }
+    const handleDownload = () => {
+        const link = document.createElement('a');
+        link.download = 'Example-PDF-File';
+
+        link.href = ExamplePdf;
+    
+        link.click();
     }
     
   return (
@@ -68,7 +76,7 @@ const Resume = () => {
                 download="Resume"
                 target='_blank'
                 rel='noopener noreferrer'
-
+                onClick={handleDownload}
             >
                     Resume
                     <HiDownload className='text-white'/>
