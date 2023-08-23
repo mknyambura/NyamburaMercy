@@ -1,5 +1,6 @@
 import React from 'react'
-import { FaLinkedinIn, FaTwitter } from 'react-icons/fa'
+import { Link } from 'react-router-dom'
+import { FaLinkedinIn, FaGitHub } from 'react-icons/fa'
 
 const LandingFooter = () => {
   return (
@@ -11,8 +12,12 @@ const LandingFooter = () => {
             <h1>All Rights Reserved</h1>
         </div>
         <div className='flex flex-row justify-between gap-8'>
-            <FaLinkedinIn className='text-[#FF9B00] text-3xl'/>
-            <FaTwitter className='text-[#FF9B00] text-3xl'/>
+        <a href='https://www.linkedin.com/in/mercy-nyambura-kariuki/' target='_blank' rel='noreferrer'>
+          <FaLinkedinIn className='sm:text-3xl md:text-3xl lg:text-5xl hover:text-[#FF9B00] hover:transition-all hover:duration-300 hover:ease-in-out'/>
+        </a>
+        <a href='https://github.com/mknyambura' target='_blank' rel='noreferrer'>
+          <FaGithub className='sm:text-3xl md:text-3xl lg:text-5xl hover:text-[#FF9B00] hover:transition-all hover:duration-300 hover:ease-in-out'/>
+        </a>
         </div>
       </div>
     </div>
