@@ -217,8 +217,8 @@ const Landing = () => {
             </div>
           </div>
           <div className="grid grid-rows-2 md:grid-cols-2 items-center gap-5">
-            <button>
-              className=" m-2  w-1/2 px-7 py-5  md:px-8 md:py-6   lg:w-(30%) lg:px-6.5 lg:py-8    bg-white shadow-xl shadow-slate-400 rounded-full"
+            <button
+              className=" m-2  w-1/2 px-7 py-5  md:px-8 md:py-6   lg:w-(30%) lg:px-6.5 lg:py-8    bg-white shadow-xl shadow-slate-400 rounded-full">
               <a href="mailto:kariuki.mercie@gmail.com">
                 <TfiEmail className="text-[#FF9B00] font-bold text-5xl" />
               </a>
