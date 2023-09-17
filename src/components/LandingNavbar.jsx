@@ -31,7 +31,7 @@ const LandingNavbar = () => {
           </div>
 
           <ul
-            className={`  w-1/2 md:w-1/2 lg:w-auto z-10 md:z-10 z-[-1] absolute md:absolute lg:static right-[1%]
+            className={`  w-1/2 md:w-1/2 lg:w-auto  md:z-10 z-1 absolute md:absolute lg:static right-[1%]
              md:right-[1%] flex flex-col md:flex-col lg:flex-row justify-between gap-8 bg-[#FF9B00]/90 md:bg-[#FF9B00]/90 lg:bg-transparent
               py-6 px-6 mb-6 mt-6 md:py-6 md:px-6 md:mb-6 md:mt-6 ${
                 open ? "top-[-1090px] text-black" : "top-[10%] text-white"
