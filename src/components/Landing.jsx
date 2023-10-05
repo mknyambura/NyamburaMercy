@@ -27,10 +27,10 @@ const Landing = () => {
   return (
     <div>
       <LandingNavbar />
-      <div className="bg-[#E1E2E2]/40 flex flex-row items-center justify-between px-12 py-12">
+      <div className="bg-[#FF9B00]/90 text-white flex flex-row items-center justify-between px-12 py-12 gap-8">
         <div className="flex flex-col justify-between gap-8">
           <h1 className="flex flex-col justify-between gap-8 text-xl md:text-xl lg:text-2xl">
-            <span className="text-4xl text-[#FF9B00] font-bold">
+            <span className="text-4xl  font-bold">
               Hi! I'm Mercy.
             </span>{" "}
             Great seeing you here! I'm a Data Scientist and a Front-End React
@@ -53,7 +53,7 @@ const Landing = () => {
             </a>
           </div>
         </div>
-        <div className="rounded-full w-0.75 md:w-3/4 lg:w-3/4">
+        <div className="rounded-full w-3/4 md:w-3/4 lg:w-3/4">
           <img src={profilePic} alt="" className="rounded-full ml-5" />
         </div>
       </div>
@@ -70,7 +70,7 @@ const Landing = () => {
         <div className="lg:w-[80%]  flex items-center justify-center flex-row px-2 py-2  md:m-10 lg:m-20">
           <div
             className="hover:text-2xl relative flex items-center
-           justify-center bg-[#FF9B00]/10 h-[30vh] w-[calc(50%-40px)] 
+           justify-center h-[30vh] w-[calc(50%-40px)] 
            hover:w-[calc(50%+500px)] transition-all ease-in-out duration-700"
           >
             <img src={dsImage} alt="" width={600} />
@@ -86,7 +86,7 @@ const Landing = () => {
           </div>
           <div
             className="hover:text-2xl relative flex items-center
-            justify-center bg-[#FF9B00]/10 h-[30vh] w-[calc(50%-40px)] 
+            justify-center h-[30vh] lg:h-[50vh] w-[calc(50%-40px)] 
             hover:w-[calc(50%+500px)] transition-all ease-in-out duration-700"
           >
             <img
@@ -106,7 +106,7 @@ const Landing = () => {
             </a>
           </div>
         </div>
-        <div className="lg:w-1/2 flex flex-col items-center gap-8">
+        <div className=" flex flex-col items-center gap-8">
           <div
             id="about"
             className="flex flex-row gap-2 lg:gap-16 px-1 py-6  
@@ -117,8 +117,8 @@ const Landing = () => {
               className="w-1/2 md:w-1/2 lg:w-1/2 flex flex-col 
             lg:items-center gap-8 m-10  md:m-10 lg:m-10"
             >
-              <h1 className="font-bold text-2xl">Data Scientist</h1>
-              <div className="grid grid-cols-2 gap-8">
+              <h1 className="font-bold text-xl md:text-2xl lg:text-2xl">Data Scientist</h1>
+              <div className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-5 gap-3 mdlg:gap-8">
                 {/* <ul className='list-disc marker:text-[#FF9B00]'> */}
                 {data.dataScience.map((dataScienceSkills) => (
                   <img
@@ -135,8 +135,8 @@ const Landing = () => {
               className="w-1/2 md:w-1/2 lg:w-[48%] flex flex-col lg:items-center 
             gap-8 m-10 md:m-10 lg:m-10 "
             >
-              <h1 className="font-bold text-2xl">React Developer</h1>
-              <div className="grid grid-cols-2 gap-4">
+              <h1 className="font-bold text-xl md:text-2xl lg:text-2xl">React Developer</h1>
+              <div className="grid grid-cols-5 gap-4">
                 {/* <ul className='list-disc marker:text-[#FF9B00]'> */}
                 {data.react.map((reactSkills) => (
                   // <div key={reactSkills.id}>
@@ -153,11 +153,11 @@ const Landing = () => {
           </div>
         </div>
       </div>
-      <div className="bg-[#E1E2E2]/40 flex flex-col gap-8 px-36 py-36 items-center">
-        <h1 className="font-bold text-3xl">Check out my respective projects</h1>
-        <ul className="list-disc marker:text-[#FF9B00] flex flex-col gap-4 px-4 py-4">
+      <div className="bg-[#FF9B00] text-white flex flex-col gap-8 px-16 lg:px-36 py-16 lg:py-36 items-center">
+        <h1 className="font-bold text-xl md:text-3xl lg:text-3xl">Check out my respective projects</h1>
+        <ul className="list-disc marker:text-white flex flex-col gap-4 px-4 py-4">
           <li
-            className="text-xl hover:font-bold hover:text-[#FF9B00] hover:transition
+            className="text-md hover:font-3xl lg:hover:font-3xl hover:font-bold hover:transition
            hover:transition-all hover:duration-500 hover:ease-in-out"
           >
             <a
@@ -171,7 +171,7 @@ const Landing = () => {
             </a>
           </li>
           <li
-            className="text-xl hover:font-bold hover:text-[#FF9B00]
+            className="text-md hover:font-3xl lg:hover:font-3xl hover:font-bold
            hover:transition hover:transition-all hover:duration-500 hover:ease-in-out"
           >
             <a
@@ -195,16 +195,16 @@ const Landing = () => {
           Get in touch
         </h1>
         <div className=" flex flex-row gap-8 items-center">
-          <h1 className="font-bold text-3xl">Don't be shy! Let's talk more</h1>
-          <BsEmojiWink className="text-7xl md:text-6xl lg:text-5xl text-[#FF9B00] px-1.5" />
+          <h1 className="font-bold text-xl md:text-2xl lg:text-3xl">Don't be shy! Let's talk more</h1>
+          <BsEmojiWink className="text-5xl md:text-6xl lg:text-7xl text-[#FF9B00] px-1.5" />
         </div>
         <div
           className="flex flex-col md:flex-col
          lg:flex-row justify-evenly items-center gap-12"
         >
-          <div className="grid grid-rows-2 md:grid-cols-2 items-center gap-5">
+          <div className="flex flex-row justify-center items-center gap-3">
             <button
-              className="m-2  w-2/4 px-7 py-5 lg:w-(30%) lg:px-6.5 lg:py-8 bg-white shadow-xl shadow-slate-400 rounded-full"
+              className="m-2  w-1/2 md:w-3/4 lg:w-[30%] px-7 py-5  lg:px-6 lg:py-6 bg-white shadow-xl shadow-slate-400 rounded-full"
               disabled="disabled"
             >
               <FaMapMarkedAlt className="text-[#FF9B00] font-bold text-5xl" />
@@ -216,9 +216,9 @@ const Landing = () => {
               </h1>
             </div>
           </div>
-          <div className="grid grid-rows-2 md:grid-cols-2 items-center gap-5">
+          <div className="flex flex-row items-center gap-3">
             <button
-              className=" m-2  w-1/2 px-7 py-5  md:px-8 md:py-6   lg:w-(30%) lg:px-6.5 lg:py-8    bg-white shadow-xl shadow-slate-400 rounded-full">
+              className=" m-2  w-1/2 md:3/4 lg:w-1/2 px-7 py-5  md:px-8 md:py-6  lg:px-6 lg:py-6    bg-white shadow-xl shadow-slate-400 rounded-full">
               <a href="mailto:kariuki.mercie@gmail.com">
                 <TfiEmail className="text-[#FF9B00] font-bold text-5xl" />
               </a>
@@ -229,7 +229,7 @@ const Landing = () => {
               <h1 className="font-bold text-2xl">Mail</h1>
               <a
                 href="mailto:kariuki.mercie@gmail.com"
-                className="text-black/30 text-xl font-light"
+                className="text-black/30 text-xl font-light hover:text-[#FF9B00] hover:ease-in-out duration-500"
               >
                 kariuki.mercie@gmail.com
               </a>

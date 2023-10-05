@@ -16,18 +16,6 @@ const LandingFooter = () => {
           </h1>
           <h1>All Rights Reserved</h1>
         </div>
-        <div className="flex flex-row justify-between gap-8">
-          <a
-            href="https://www.linkedin.com/in/mercy-nyambura-kariuki/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FaLinkedinIn className="text-3xl md:text-3xl lg:text-5xl text-[#fff] hover:text-[#FF9B00] hover:transition-all hover:duration-300 hover:ease-in-out" />
-          </a>
-          {/* <a href='https://github.com/mknyambura' target='_blank' rel='noreferrer'>
-          <FaGitHub className='text-3xl md:text-3xl lg:text-5xl hover:text-[#FF9B00] hover:transition-all hover:duration-300 hover:ease-in-out'/>
-        </a> */}
-        </div>
       </div>
     </div>
   );
