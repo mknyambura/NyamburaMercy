@@ -1,0 +1,741 @@
+{
+    "react":[
+        {
+            "id": 1,
+            "title":"HTML",
+            "image": "./images/html.png"
+        },
+        {
+            "id": 2,
+            "title":"CSS",
+            "image": "./images/css.png"
+        },
+        {
+            "id": 3,
+            "title":"Javascript",
+            "image": "./images/javascript.png"
+        },
+        {
+            "id": 4,
+            "title":"Typescript",
+            "image": "./images/typescript.png"
+        },
+        {
+            "id": 5,
+            "title":"React",
+            "image": "./images/react.png"
+        },
+        {
+            "id": 6,
+            "title":"Next",
+            "image": "./images/next.png"
+        },
+        {
+            "id": 7,
+            "title":"Tailwindcss",
+            "image": "./images/tailwindcss.png"
+        },
+        {
+            "id": 8,
+            "title":"SCSS",
+            "image": "./images/sass.png"
+        },
+        {
+            "id": 9,
+            "title":"Bootstrap",
+            "image": "./images/bootstrap.png"
+        },
+        {
+            "id": 10,
+            "title":"Rails",
+            "image": "./images/rails.png"
+        },
+        {
+            "id": 11,
+            "title":"Ruby",
+            "image": "./images/ruby.png"
+        }
+    ],
+    "dataScience":[
+        {
+            "id": 1,
+            "title":"Python",
+            "image": "./images/python.png"
+        },
+        {
+            "id": 2,
+            "title":"Pandas",
+            "image": "./images/pandas.png"
+        },
+        {
+            "id": 3,
+            "title":"R",
+            "image": "./images/r.png"
+        },
+        {
+            "id": 4,
+            "title":"SQL",
+            "image": "./images/sql.png"
+        },
+        {
+            "id": 5,
+            "title":"Tensorflow",
+            "image": "./images/tensorflow.png"
+        },
+        {
+            "id": 6,
+            "title":"NumPy",
+            "image": "./images/numpy.png"
+        },
+        {
+            "id": 7,
+            "title":"Matplotlib",
+            "image": "./images/matplotlib.png"
+        },
+        {
+            "id": 8,
+            "title":"Matlab",
+            "image": "./images/matlab.png"
+        },
+        {
+            "id": 9,
+            "title":"SciPy",
+            "image": "./images/scipy.png"
+        },
+        {
+            "id": 10,
+            "title":"Scikit-Learn",
+            "image": "./images/scikit-learn.png"
+        },
+        {
+            "id": 11,
+            "title":"Keras",
+            "image": "./images/keras.png"
+        },
+        {
+            "id": 12,
+            "title":"Hadoop",
+            "image": "./images/hadoop.png"
+        },
+        {
+            "id": 13,
+            "title":"Microsoft PowerBI",
+            "image": "./images/powerbi.png"
+        },
+        {
+            "id": 14,
+            "title":"Jupyter Notebooks",
+            "image": "./images/jupyter-notebook.png"
+        }
+    ],
+    "allprojects": [
+        {
+            "id": 1,
+            "title": "BI Forecasting Inoculation - Predicting the Likelihood of H1N1 and Seasonal Flu Vaccine Uptake",
+            "code": "https://github.com/mknyambura/H1N1-Flu-Vaccines-Forecast/blob/main/H1N1%20Flu%20Vaccination%20Analysis%20-%20Machine%20Learning.ipynb",
+            "viz": "https://public.tableau.com/app/profile/mercy.nyambura/viz/VideoGamesSalesReport/VideoGamesReport",
+            "image": "./images/datascience/VideoGamesReport.png",
+            "tool1": "Python",
+            "tool2": "Jupyter Notebook",
+            "tool3": "Power BI",
+            "tool4": "Tableau",
+            "description": "Understand the factors influencing individuals' likelihood of receiving H1N1 and seasonal flu vaccines."
+        },
+        {
+            "id": 2,
+            "title": "British Airways Sentiment Analysis - Forage Internship",
+            "code": "https://github.com/mknyambura/British-Airways---Reviews---Customer-Bookings/blob/main/British%20Airways%20Reviews.ipynb",
+            "viz": "https://public.tableau.com/app/profile/mercy.nyambura/viz/CallCenterReport_16564528249180/CallCenterReport",
+            "image": "./images/datascience/CallCenterReport.png",
+            "tool1": "Python",
+            "tool2": "Jupyter Notebook",
+            "tool3": "Power BI",
+            "tool4": "Tableau",
+            "description": "Led a data science project for British Airways, achieving an 85.2% accuracy in predicting customer bookings. Manipulated and preprocessed diverse datasets, showcased proficiency in web scraping, and implemented predictive models with impressive accuracy."
+
+        },
+        {
+            "id": 3,
+            "title": "BCG PowerCo Electricity Churn Analysis - Forage Internship",
+            "code": "https://github.com/mknyambura/BCG---Forage---PowerCo/blob/main/PowerCo%20Customer%20Churn%20Analysis%20and%20Distribution.ipynb",
+            "viz": "https://public.tableau.com/app/profile/mercy.nyambura/viz/SprocketCentralPtyLtdKPMG/ProductSizeandBrandMultivariateDashboardExploration",
+            "image": "./images/datascience/SprocketCentralPtyLtdReport.png",
+            "tool1": "Python",
+            "tool2": "Jupyter Notebook",
+            "tool3": "-",
+            "tool4": "-",
+            "description": "Demonstrated proficiency in web scraping by extracting valuable customer reviews from an airline review website using BeautifulSoup and Requests. Implemented predictive models, including Logistic Regression and Random Forest Classifier, achieving an impressive accuracy of 85.2% and 85.39%, respectively."
+
+        },
+        {
+            "id": 4,
+            "title": "H&M Product Insight ",
+            "code": "#",
+            "viz": "https://public.tableau.com/app/profile/mercy.nyambura/viz/HMProductInsight/ProductInsight",
+            "image": "./images/datascience/H&MProductInsight.png",
+            "tool1": "Python",
+            "tool2": "Jupyter Notebook",
+            "tool3": "Tableau",
+            "tool4": "Power BI",
+            "description": "H&M utilizes Tableau and Python for product and sales insights, creating a dynamic synergy between data visualization and analytical capabilities. With Tableau, they craft visually compelling representations of product performance and sales trends, providing a user-friendly interface for decision-makers. Python's analytical prowess enhances this by enabling in-depth statistical analysis, predictive modeling, and data manipulation, ensuring a comprehensive understanding of H&M's market dynamics. This integrated approach empowers H&M to make informed decisions, optimize inventory, and enhance overall business strategies."
+        },
+        {
+            "id": 5,
+            "title": "World Happiness Report 2015-2019 ",
+            "code": "https://github.com/mknyambura/Google-Data-Analyst-Professional-Certificate-Capstone-Projects/blob/main/Choose%20Your%20Own%20Dataset/World%20Happiness%20Report/World%20Happiness%20Report.ipynb",
+            "viz": "https://public.tableau.com/app/profile/mercy.nyambura/viz/WorldHappinessReport_16584167402850/WorldHappinessReport",
+            "image": "./images/datascience/WorldHappinessReport2015-2019.png",
+            "tool1": "Python",
+            "tool2": "Jupyter Notebook",
+            "tool3": "Tableau",
+            "tool4": "Power BI",
+            "description": "Over the period from 2015 to 2019, the World Happiness Report tracked global happiness levels. The report assessed various factors, including economic stability, social support, life expectancy, freedom to make life choices, generosity, and perceptions of corruption. Nordic countries consistently ranked high in happiness, with Finland often claiming the top spot. The findings highlighted the complex interplay of socio-economic and cultural factors in shaping overall well-being on a global scale during those years."
+        },
+        {
+            "id": 6,
+            "title": "Amazon Best Selling Books Analysis",
+            "code": "https://github.com/mknyambura/Google-Data-Analyst-Professional-Certificate-Capstone-Projects/blob/main/Choose%20Your%20Own%20Dataset/Amazon%20Top%2050%20Best%20Selling%20Books/Amazon%20Top%2050%20Best%20Selling%20Books.ipynb",
+            "viz": "https://public.tableau.com/app/profile/mercy.nyambura/viz/AmazonTop50BestSellingBooks/AmazonBestSellingBooksAnalysis#1",
+            "image": "./images/datascience/AmazonBestSellingBooksAnalysis.png",
+            "tool1": "Python",
+            "tool2": "Jupyter Notebook",
+            "tool3": "Tableau",
+            "tool4": "Power BI", 
+            "description": "Amazon's best-selling books represent a dynamic mix of genres and topics, reflecting the diverse interests of readers. The list typically includes a combination of fiction and non-fiction titles, ranging from novels to self-help books, and sometimes trending genres or specific author releases. The rankings are determined by factors like sales, customer reviews, and overall popularity. The constantly evolving nature of the list makes it a snapshot of current reading trends and preferences."
+        },
+        {
+            "id": 7,
+            "title": "Avocado Price Analysis",
+            "code": "https://github.com/mknyambura/Google-Data-Analyst-Professional-Certificate-Capstone-Projects/blob/main/Choose%20Your%20Own%20Dataset/Avocado%20Prices/Avocado%20Prices%20Analysis.ipynb",
+            "viz": "https://public.tableau.com/app/profile/mercy.nyambura/viz/AvocadoPricesAnalysis/AvocadoPriceAnalysis",
+            "image": "./images/datascience/AvocadoPriceAnalysis.png",
+            "tool1": "Python",
+            "tool2": "Jupyter Notebook",
+            "tool3": "Tableau",
+            "tool4": "Power BI", 
+            "description": "Analyzing avocado prices involves examining various factors such as supply and demand dynamics, climate conditions affecting avocado cultivation, transportation costs, and global market trends. Fluctuations in avocado prices can be influenced by seasonal variations, weather-related challenges, and shifts in consumer demand. Additionally, trade policies, geopolitical events, and the impact of diseases on avocado crops may play a role."
+        },
+        {
+            "id": 8,
+            "title": "Ad Click Through Rate Prediction",
+            "code": "https://github.com/mknyambura/Ads-Click-Through-Rate-Prediction",
+            "viz": "#",
+            "image": "./images/datascience/Ad-Click-Through-Rate.png",
+            "tool1": "Python",
+            "tool2": "Jupyter Notebook",
+            "tool3": "Tableau",
+            "tool4": "Power BI",
+            "description": "Predicting ad click-through rates involves leveraging machine learning algorithms to analyze various features and patterns that impact user engagement. Factors such as ad content, targeting parameters, user demographics, and historical click-through data are crucial in building an effective prediction model."
+        },
+        {
+            "id": 9,
+            "title": "SMS Spam Detection",
+            "code": "https://github.com/mknyambura/Data-Science-Repository/tree/main/SMS%20Spam%20Detection",
+            "viz": "#",
+            "image": "./images/datascience/SMSSpamDetection.png",
+            "tool1": "Python",
+            "tool2": "Jupyter Notebook",
+            "tool3": "Tableau",
+            "tool4": "Power BI",
+            "description": "SMS spam detection using Naive Bayes is a common and effective approach in natural language processing. The Naive Bayes algorithm calculates the probability that a given SMS message is spam or not based on the occurrence of certain words in the message."
+        },
+        {
+            "id": 10,
+            "title": "Neural Network CIFAR10 Image Classification",
+            "code": "https://github.com/mknyambura/Data-Science-Repository/blob/main/Neural%20Network%20CIFAR10%20Image%20Classification/Neural_Network_Keras_CIFAR_10_Classification.ipynb",
+            "viz": "#",
+            "image": "./images/datascience/NeuralImageClassification.png",
+            "tool1": "Python",
+            "tool2": "Jupyter Notebook",
+            "tool3": "Tableau",
+            "tool4": "Power BI",
+            "description": "In Neural Network CIFAR10 Image Classification,the goal is to use a neural network to classify images from the CIFAR-10 dataset. CIFAR-10 consists of 60,000 32x32 color images in 10 different classes, such as airplanes, cars, birds, cats, etc."
+        },
+        {
+            "id": 11,
+            "title": "FIFA 2019 Analysis",
+            "code": "https://github.com/mknyambura/Data-Science-Repository/blob/main/FIFA-2019-Analysis-main/FIFA%20Analysis%20of%20Football%20Players.ipynb",
+            "viz": "#",
+            "image": "./images/datascience/FIFA2019Analysis.png",
+            "tool1": "Python",
+            "tool2": "Jupyter Notebook",
+            "tool3": "Tableau",
+            "tool4": "Power BI",
+            "description": "The analysis of FIFA 19 encompasses a thorough examination of its gameplay mechanics, assessing controls, player movements, and overall responsiveness. Visual elements, including graphics quality and player animations, are scrutinized for improvements and new features. Different game modes, such as Career Mode and Ultimate Team, are explored for depth and realism. Player ratings and attributes are analyzed to gauge in-game performance. "
+        },
+        {
+            "id": 12,
+            "title": "Absenteesm at Work",
+            "code": "https://github.com/mknyambura/Data-Science-Repository/blob/main/Absenteeism_at_work/Absenteeism%20at%20work.ipynb",
+            "viz": "#",
+            "image": "./images/datascience/AbsenteesmAtWork.png",
+            "tool1": "Python",
+            "tool2": "Jupyter Notebook",
+            "tool3": "Tableau",
+            "tool4": "Power BI",
+            "description": "Absenteeism at work refers to the frequent or habitual absence of employees from their workplace, often without prior notice or valid reasons. This phenomenon can have various causes, including personal health issues, lack of job satisfaction, workplace stress, or external factors such as family responsibilities. High levels of absenteeism can negatively impact productivity, team morale, and overall work environment. Employers typically track absenteeism rates and may implement strategies to address the root causes, such as improving workplace conditions, offering support programs, or implementing flexible work arrangements. Effectively managing absenteeism is crucial for maintaining a healthy and productive work environment."
+        },
+        {
+            "id": 13,
+            "title": "Diabetes Prediction",
+            "code": "https://github.com/mknyambura/Data-Science-Repository/blob/main/Diabetes%20Prediction/Diabetes%20Prediction%20with%20Machine%20Learning.ipynb",
+            "viz": "#",
+            "image": "./images/datascience/DiabetesPrediction.png",
+            "tool1": "Python",
+            "tool2": "Jupyter Notebook",
+            "tool3": "Tableau",
+            "tool4": "Power BI",
+            "description": " Diabetes prediction involves the use of predictive modeling techniques to identify individuals who may be at risk of developing diabetes. This process typically includes analyzing various risk factors and health indicators to make informed predictions. Common approaches involve machine learning algorithms such as logistic regression or decision trees."
+        },
+        {
+            "id": 14,
+            "title": "Uber Trip Analysis",
+            "code": "https://github.com/mknyambura/uber-trips-analysis/blob/main/Uber%20Trips%20Analysis.ipynb",
+            "viz": "https://github.com/mknyambura/uber-trips-analysis/blob/main/Uber%20Trip%20Analysis.pbix",
+            "image": "./images/datascience/UberTripAnalysis.png",
+            "tool1": "Python",
+            "tool2": "Jupyter Notebook",
+            "tool3": "Tableau",
+            "tool4": "Power BI",
+            "description": "Encompasses a multifaceted examination of the company's operations and strategies. One crucial aspect is the evaluation of Uber's business model, spanning ride-sharing and food delivery services. Financial scrutiny involves a deep dive into the company's revenue streams, profitability, and responses to external economic factors. Market presence and competition within the global ride-sharing and food delivery industries are key focal points. Additionally, exploring Uber's innovations in technology, such as app features and investments in autonomous vehicles, sheds light on its commitment to staying at the forefront of the industry. Regulatory challenges and Uber's responses, customer satisfaction metrics, and its relationship with drivers contribute to a holistic understanding. Strategic partnerships, acquisitions, and the company's social and ethical considerations also play pivotal roles in shaping the overall analysis. Lastly, recognizing challenges faced by Uber and assessing its future outlook provide insights into the dynamic landscape in which the company operates."
+        },
+        {
+            "id": 15,
+            "title": "Get Google Stock Price from Api",
+            "code": "https://github.com/mknyambura/Get-Stock-Price-Data-using-Python/blob/main/Get%20Stock%20Price%20Data%20using%20Python.ipynb",
+            "viz": "#",
+            "image": "./images/datascience/GetGooglePrice.png",
+            "tool1": "Python",
+            "tool2": "Jupyter Notebook",
+            "tool3": "Tableau",
+            "tool4": "Power BI"
+        },
+        {
+            "id": 16,
+            "title": "Instagram Reach Forecasting",
+            "code": "https://github.com/mknyambura/instagram_reach_forecasting/blob/main/Instagram%20Reach%20Forecasting.ipynb",
+            "viz": "https://github.com/mknyambura/instagram_reach_forecasting/blob/main/Instagram%20Reach%20Forecast%20Anaysis.pbix",
+            "image": "./images/datascience/InstagramReachForecasting.png",
+            "tool1": "Python",
+            "tool2": "Jupyter Notebook",
+            "tool3": "Tableau",
+            "tool4": "Power BI",
+            "description": "Instagram reach forecasting involves predicting the potential audience size that a particular post or campaign can reach on the platform. This process is crucial for social media marketers and influencers to plan and optimize their content strategy. "
+        },
+        {
+            "id": 17,
+            "title": "Corporate Landing Page",
+            "code": "https://github.com/mknyambura/corporate-landing-page",
+            "website": "https://corporate-landing-page-nine.vercel.app/",
+            "image": "./images/react/CorporateLandingPage.png",
+            "tool1": "React",
+            "tool2": "TailwindCSS",
+            "tool3": "JavaScript",
+            "tool4": "Github", 
+            "description": "Creating a corporate landing page using HTML, Tailwind CSS, React, and JavaScript involves combining the strengths of these technologies to build an interactive and visually appealing web page. "
+        },
+        {
+            "id": 18,
+            "title": "Itsmercy",
+            "code": "https://github.com/mknyambura/itsmercy",
+            "website": "https://itsmercy.vercel.app/",
+            "image": "./images/react/CorporateLandingPage.png",
+            "tool1": "React",
+            "tool2": "TailwindCSS",
+            "tool3": "JavaScript",
+            "tool4": "Github", 
+            "description": "Portfolio v.1.0. "
+        },
+        {
+            "id": 19,
+            "title": "mercy-kariuki",
+            "code": "https://github.com/mknyambura/portfolio-v2.0",
+            "website": "https://mercy-kariuki.vercel.app/",
+            "image": "./images/react/CorporateLandingPage.png",
+            "tool1": "React",
+            "tool2": "TailwindCSS",
+            "tool3": "JavaScript",
+            "tool4": "Github", 
+            "description": "Portfolio v.2.0. "
+        },
+        {
+            "id": 2,
+            "title": "Brida University",
+            "code": "https://github.com/mknyambura/brida",
+            "website": "https://brida-sepia.vercel.app/",
+            "image": "./images/react/BridaDesign.png",
+            "tool1": "React",
+            "tool2": "TailwindCSS",
+            "tool3": "JavaScript",
+            "tool4": "Github",
+            "description": "-"
+        },
+        {
+            "id": 3,
+            "title": "Dentalist Landing Page",
+            "code": "https://github.com/mknyambura/dentalist",
+            "website": "https://dentalist-kohl.vercel.app/",
+            "image": "./images/react/Dentalist.png",
+            "tool1": "React",
+            "tool2": "TailwindCSS",
+            "tool3": "JavaScript",
+            "tool4": "Github",
+            "description": "-"
+        },
+        {
+            "id": 4,
+            "title": "Frankys Studio",
+            "code": "https://github.com/mknyambura/FrankyStudios",
+            "website": "https://franky-studios.vercel.app/",
+            "image": "./images/react/FrankyStudios.png",
+            "tool1": "React",
+            "tool2": "TailwindCSS",
+            "tool3": "JavaScript",
+            "tool4": "Github",
+            "description": "-"
+        },
+        {
+            "id": 5,
+            "title": "Hyperestate",
+            "code": "https://github.com/mknyambura/hyperestate",
+            "website": "https://hyperestate.vercel.app/",
+            "image": "./images/react/Hyperestate1.png",
+            "tool1": "React",
+            "tool2": "TailwindCSS",
+            "tool3": "JavaScript",
+            "tool4": "Github",
+            "description": "-"
+        },
+        {
+            "id": 6,
+            "title": "Fashion Website",
+            "code": "https://github.com/mknyambura/fashion",
+            "website": "https://fashion-sepia.vercel.app/",
+            "image": "./images/react/Fashion.png",
+            "tool1": "React",
+            "tool2": "TailwindCSS",
+            "tool3": "JavaScript",
+            "tool4": "Github",
+            "description": "-"
+        },
+        {
+            "id": 7,
+            "title": "SaaS Website",
+            "code": "https://github.com/mknyambura/saas-landing-page",
+            "website": "https://saasify-rouge.vercel.app/",
+            "image": "./images/react/SaaS.png",
+            "tool1": "React",
+            "tool2": "TailwindCSS",
+            "tool3": "JavaScript",
+            "tool4": "Github",
+            "description": "-"
+        },
+        {
+            "id": 8,
+            "title": "ITSMNK Creative Agency",
+            "code": "https://github.com/mknyambura/itsmnk-creative-agency",
+            "website": "https://itsmnk-creative-agency.vercel.app/",
+            "image": "./images/react/itsmnk-creative-agency.png",
+            "tool1": "React",
+            "tool2": "TailwindCSS",
+            "tool3": "JavaScript",
+            "tool4": "Github",
+            "description": "-"
+        }
+    ],
+    "reactProjects": [
+        {
+            "id": 1,
+            "title": "Corporate Landing Page",
+            "code": "https://github.com/mknyambura/corporate-landing-page",
+            "website": "https://corporate-landing-page-nine.vercel.app/",
+            "image": "./images/react/CorporateLandingPage.png"
+        },
+        {
+            "id": 2,
+            "title": "Brida University",
+            "code": "https://github.com/mknyambura/brida",
+            "website": "https://brida-sepia.vercel.app/",
+            "image": "./images/react/BridaDesign.png"
+        },
+        {
+            "id": 3,
+            "title": "Dentalist Landing Page",
+            "code": "https://github.com/mknyambura/dentalist",
+            "website": "https://dentalist-kohl.vercel.app/",
+            "image": "./images/react/Dentalist.png"
+        },
+        {
+            "id": 4,
+            "title": "Frankys Studio",
+            "code": "https://github.com/mknyambura/FrankyStudios",
+            "website": "https://franky-studios.vercel.app/",
+            "image": "./images/react/FrankyStudios.png"
+        },
+        {
+            "id": 5,
+            "title": "Hyperestate",
+            "code": "https://github.com/mknyambura/hyperestate",
+            "website": "https://hyperestate.vercel.app/",
+            "image": "./images/react/Hyperestate1.png"
+        },
+        {
+            "id": 6,
+            "title": "Fashion Website",
+            "code": "https://github.com/mknyambura/fashion",
+            "website": "https://fashion-sepia.vercel.app/",
+            "image": "./images/react/Fashion.png"
+        },
+        {
+            "id": 7,
+            "title": "SaaS Website",
+            "code": "https://github.com/mknyambura/saas-landing-page",
+            "website": "https://saasify-rouge.vercel.app/",
+            "image": "./images/react/SaaS.png"
+        },
+        {
+            "id": 8,
+            "title": "ITSMNK Creative Agency",
+            "code": "https://github.com/mknyambura/itsmnk-creative-agency",
+            "website": "https://itsmnk-creative-agency.vercel.app/",
+            "image": "./images/react/itsmnk-creative-agency.png"
+        }
+    ],
+    "datascienceProjects": [
+        {
+            "id": 1,
+            "title": "H1N1 Flu Vaccines Uptake Forecast",
+            "code": "https://github.com/mknyambura/H1N1-Flu-Vaccines-Forecast/blob/main/H1N1%20Flu%20Vaccination%20Analysis%20-%20Machine%20Learning.ipynb",
+            "viz": "https://public.tableau.com/app/profile/mercy.nyambura/viz/VideoGamesSalesReport/VideoGamesReport",
+            "image": "./images/datascience/VideoGamesReport.png",
+            "tool1": "Python",
+            "tool2": "Jupyter Notebook",
+            "tool3": "Power BI"
+        },
+        {
+            "id": 2,
+            "title": "British Airways Sentiment Analysis - Forage Internship",
+            "code": "https://github.com/mknyambura/British-Airways---Reviews---Customer-Bookings/blob/main/British%20Airways%20Reviews.ipynb",
+            "viz": "https://public.tableau.com/app/profile/mercy.nyambura/viz/CallCenterReport_16564528249180/CallCenterReport",
+            "image": "./images/datascience/CallCenterReport.png",
+            "tool1": "Python",
+            "tool2": "Jupyter Notebook"
+
+        },
+        {
+            "id": 3,
+            "title": "BCG PowerCo Electricity Churn Analysis - Forage Internship",
+            "code": "https://github.com/mknyambura/BCG---Forage---PowerCo/blob/main/PowerCo%20Customer%20Churn%20Analysis%20and%20Distribution.ipynb",
+            "viz": "https://public.tableau.com/app/profile/mercy.nyambura/viz/SprocketCentralPtyLtdKPMG/ProductSizeandBrandMultivariateDashboardExploration",
+            "image": "./images/datascience/SprocketCentralPtyLtdReport.png",
+            "tool1": "Python",
+            "tool2": "Jupyter Notebook"
+
+        },
+        {
+            "id": 4,
+            "title": "H&M Product Insight ",
+            "code": "#",
+            "viz": "https://public.tableau.com/app/profile/mercy.nyambura/viz/HMProductInsight/ProductInsight",
+            "image": "./images/datascience/H&MProductInsight.png",
+            "tool1": "Python",
+            "tool2": "Jupyter Notebook",
+            "tool3": "Tableau",
+            "tool4": "Power BI"
+        },
+        {
+            "id": 5,
+            "title": "World Happiness Report 2015-2019 ",
+            "code": "https://github.com/mknyambura/Google-Data-Analyst-Professional-Certificate-Capstone-Projects/blob/main/Choose%20Your%20Own%20Dataset/World%20Happiness%20Report/World%20Happiness%20Report.ipynb",
+            "viz": "https://public.tableau.com/app/profile/mercy.nyambura/viz/WorldHappinessReport_16584167402850/WorldHappinessReport",
+            "image": "./images/datascience/WorldHappinessReport2015-2019.png",
+            "tool1": "Python",
+            "tool2": "Jupyter Notebook",
+            "tool3": "Tableau",
+            "tool4": "Power BI"
+        },
+        {
+            "id": 6,
+            "title": "Amazon Best Selling Books Analysis",
+            "code": "https://github.com/mknyambura/Google-Data-Analyst-Professional-Certificate-Capstone-Projects/blob/main/Choose%20Your%20Own%20Dataset/Amazon%20Top%2050%20Best%20Selling%20Books/Amazon%20Top%2050%20Best%20Selling%20Books.ipynb",
+            "viz": "https://public.tableau.com/app/profile/mercy.nyambura/viz/AmazonTop50BestSellingBooks/AmazonBestSellingBooksAnalysis#1",
+            "image": "./images/datascience/AmazonBestSellingBooksAnalysis.png",
+            "tool1": "Python",
+            "tool2": "Jupyter Notebook",
+            "tool3": "Tableau",
+            "tool4": "Power BI"
+        },
+        {
+            "id": 7,
+            "title": "Avocado Price Analysis",
+            "code": "https://github.com/mknyambura/Google-Data-Analyst-Professional-Certificate-Capstone-Projects/blob/main/Choose%20Your%20Own%20Dataset/Avocado%20Prices/Avocado%20Prices%20Analysis.ipynb",
+            "viz": "https://public.tableau.com/app/profile/mercy.nyambura/viz/AvocadoPricesAnalysis/AvocadoPriceAnalysis",
+            "image": "./images/datascience/AvocadoPriceAnalysis.png",
+            "tool1": "Python",
+            "tool2": "Jupyter Notebook",
+            "tool3": "Tableau",
+            "tool4": "Power BI"
+        },
+        {
+            "id": 8,
+            "title": "Ad Click Through Rate Prediction",
+            "code": "https://github.com/mknyambura/Ads-Click-Through-Rate-Prediction",
+            "viz": "#",
+            "image": "./images/datascience/Ad-Click-Through-Rate.png",
+            "tool1": "Python",
+            "tool2": "Jupyter Notebook",
+            "tool3": "Tableau",
+            "tool4": "Power BI"
+        },
+        {
+            "id": 9,
+            "title": "SMS Spam Detection",
+            "code": "https://github.com/mknyambura/Data-Science-Repository/tree/main/SMS%20Spam%20Detection",
+            "viz": "#",
+            "image": "./images/datascience/SMSSpamDetection.png",
+            "tool1": "Python",
+            "tool2": "Jupyter Notebook",
+            "tool3": "Tableau",
+            "tool4": "Power BI"
+        },
+        {
+            "id": 10,
+            "title": "Neural Network CIFAR10 Image Classification",
+            "code": "https://github.com/mknyambura/Data-Science-Repository/blob/main/Neural%20Network%20CIFAR10%20Image%20Classification/Neural_Network_Keras_CIFAR_10_Classification.ipynb",
+            "viz": "#",
+            "image": "./images/datascience/NeuralImageClassification.png",
+            "tool1": "Python",
+            "tool2": "Jupyter Notebook",
+            "tool3": "Tableau",
+            "tool4": "Power BI"
+        },
+        {
+            "id": 11,
+            "title": "FIFA 2019 Analysis",
+            "code": "https://github.com/mknyambura/Data-Science-Repository/blob/main/FIFA-2019-Analysis-main/FIFA%20Analysis%20of%20Football%20Players.ipynb",
+            "viz": "#",
+            "image": "./images/datascience/FIFA2019Analysis.png",
+            "tool1": "Python",
+            "tool2": "Jupyter Notebook",
+            "tool3": "Tableau",
+            "tool4": "Power BI"
+        },
+        {
+            "id": 12,
+            "title": "Absenteesm at Work",
+            "code": "https://github.com/mknyambura/Data-Science-Repository/blob/main/Absenteeism_at_work/Absenteeism%20at%20work.ipynb",
+            "viz": "#",
+            "image": "./images/datascience/AbsenteesmAtWork.png",
+            "tool1": "Python",
+            "tool2": "Jupyter Notebook",
+            "tool3": "Tableau",
+            "tool4": "Power BI"
+        },
+        {
+            "id": 13,
+            "title": "Diabetes Prediction",
+            "code": "https://github.com/mknyambura/Data-Science-Repository/blob/main/Diabetes%20Prediction/Diabetes%20Prediction%20with%20Machine%20Learning.ipynb",
+            "viz": "#",
+            "image": "./images/datascience/DiabetesPrediction.png",
+            "tool1": "Python",
+            "tool2": "Jupyter Notebook",
+            "tool3": "Tableau",
+            "tool4": "Power BI"
+        },
+        {
+            "id": 14,
+            "title": "Uber Trip Analysis",
+            "code": "https://github.com/mknyambura/uber-trips-analysis/blob/main/Uber%20Trips%20Analysis.ipynb",
+            "viz": "https://github.com/mknyambura/uber-trips-analysis/blob/main/Uber%20Trip%20Analysis.pbix",
+            "image": "./images/datascience/UberTripAnalysis.png",
+            "tool1": "Python",
+            "tool2": "Jupyter Notebook",
+            "tool3": "Tableau",
+            "tool4": "Power BI"
+        },
+        {
+            "id": 15,
+            "title": "Get Google Stock Price from Api",
+            "code": "https://github.com/mknyambura/Get-Stock-Price-Data-using-Python/blob/main/Get%20Stock%20Price%20Data%20using%20Python.ipynb",
+            "viz": "#",
+            "image": "./images/datascience/GetGooglePrice.png",
+            "tool1": "Python",
+            "tool2": "Jupyter Notebook",
+            "tool3": "Tableau",
+            "tool4": "Power BI"
+        },
+        {
+            "id": 16,
+            "title": "Instagram Reach Forecasting",
+            "code": "https://github.com/mknyambura/instagram_reach_forecasting/blob/main/Instagram%20Reach%20Forecasting.ipynb",
+            "viz": "https://github.com/mknyambura/instagram_reach_forecasting/blob/main/Instagram%20Reach%20Forecast%20Anaysis.pbix",
+            "image": "./images/datascience/InstagramReachForecasting.png",
+            "tool1": "Python",
+            "tool2": "Jupyter Notebook",
+            "tool3": "Tableau",
+            "tool4": "Power BI"
+        }
+    ],
+    "workExperiences": [
+        {
+            "id": 1,
+            "title": "Customs and Border Control Intern",
+            "company": "Kenya Revenue Authority",
+            "duration": "September 2021 - November 2021",
+            "location": "Nairobi, Kenya",
+            "task1": "Facilitated international trade by providing expedited clearance of goods through simplified and harmonized Customs procedures",
+            "task2": "Collected and accounted for 35% of the gross revenue collected by Kenya Revenue Authority",
+            "task3": "Collected and accounted for import duty and VAT as well as agency fees on behalf of other institutions related to cargo"
+        },
+        {
+            "id": 2,
+            "title": "Statistics Intern",
+            "company": "Civil Registration Services",
+            "duration": "June 2021 - September 2021",
+            "location": "Nairobi, Kenya",
+            "task1": "Collected, filed and retrieved birth and death records that later assessed applicants for issuance of birth and death certificates",
+            "task2": "Monitored and implemented a one day service report (TAT) field offices in the months of June, July and August, 2021",
+            "task3": "Applied statistical analysis on the births and deaths for year 2020 for efficient government planning and accurate monitoring of progress across the country"
+        },
+        {
+            "id": 3,
+            "title": "Finance Intern",
+            "company": "Kenya Power and Lighting Company",
+            "duration": "May 2019 - July 2019",
+            "location": "Nairobi, Kenya",
+            "task1": "Ensured compliance with financial and accounting standards and regulations",
+            "task2": "Reviewed financial services performance and made recommendations to improve efficiency and effectiveness",
+            "task3": "Ensured the company interests are adequately covered through insurance and hedging instruments to minimize exposure to losses"
+        }
+    ],
+    "projects": [
+        {
+            "id": 1,
+            "title": "Mosjra E-commerce",
+            "description1": "Built a front-end responsive e-commerce web application that allows users to purchase men, women and children's clothes",
+            "description2": "Utilized React, Tailwind and SCSS to simulate possible outcomes based on the user's experience",
+            "category": "Development"
+        },
+        {
+            "id": 2,
+            "title": "Ads Click Through Rate Prediction",
+            "description1": "Used Machine Learning for the task of Ads CTR prediction using Python. Ads CTR means predicting whether the user will click on the ad.",
+            "description2": "Utilized Microsoft Power BI to create a visualisation of the data using a pie chart, histogram and doughnut chart",
+            "category": "Data Science"
+        }
+    ],
+    "education": [
+        {
+            "id": 1,
+            "title": "Bachelor of Science in Economics",
+            "institution": "Daystar University",
+            "location": "Nairobi, Kenya"
+        },
+        {
+            "id": 2,
+            "title": "Software Engineering Program",
+            "institution": "Moringa School",
+            "location": "Nairobi, Kenya"
+        }
+    ]
+}
